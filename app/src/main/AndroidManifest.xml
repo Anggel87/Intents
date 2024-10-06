@@ -13,6 +13,14 @@
         android:theme="@style/Theme.Intents"
         tools:targetApi="31">
         <activity
+            android:name=".explicitos"
+            android:exported="false" />
+        <activity
+            android:name=".IntentMain"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
